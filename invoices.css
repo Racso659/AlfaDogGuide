@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+  }
+  
+  header {
+    background-color: #F54952;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  .box {
+    text-align: center;
+    background-color: #F54952;
+    border-radius: 5px;
+    text-decoration: dashed;
+    text-decoration-color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+  }
+  .container-text {
+    text-align: left;
+    margin-left: 20px;
+
+  }
+  .box-2{
+    text-align: left;
+    border-radius: 5px;
+    text-decoration: dashed;
+    text-decoration-color: black; 
+
+  }
+  .main{
+    text-decoration-color: white;
+    color: white;
+  }
+  .file-card {
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    width: calc(25% - 40px);
+  }
+  
+  .file-download {
+    display: block;
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+  }
+  
+  .file-download:hover {
+    background-color: darkblue;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+  }
+  
+  
+  .file-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+    .file-download {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color:#F54952;
+        color: #FFFFFF;
+        text-decoration: none;
+        border-radius: 5px;
+        font-weight: bold;
+  }
+  form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    margin-top: 50px;
+  }
+  
+  input[type="text"] {
+    width: 60%;
+    height: 100%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button[type="submit"] {
+    width: 20%;
+    height: 100%;
+    background-color: lightblue;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  .invoice-container {
+    position: relative;
+  }
+  
+  .invoice-container::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+  .container-download {
+    position: relative;
+  }
+  
+  .container-download::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+  }
+  .back {
+    background-color: #F54952; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+
+    
+    
