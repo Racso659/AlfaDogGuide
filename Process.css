@@ -1,0 +1,150 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #404155;
+	color: white;
+	font-family: sans-serif;
+}
+
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100px;
+	background-color: white;
+  background-size:cover;
+	color: #404155;
+	font-size: 3rem;
+  border-radius: 50px;
+  
+}
+.header h1 {
+  font-size: 48px;
+}
+
+@media only screen and (max-width: 600px) {
+  .header h1 {
+    font-size: 36px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .header h1 {
+    font-size: 24px;
+  }
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	padding: 50px;
+}
+
+.card {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	background-color: white;
+	border-radius: 10px;
+	margin: 20px;
+	padding: 20px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+	transition: transform 0.3s;
+}
+
+.card:hover {
+	transform: scale(1.2);
+}
+
+.card img {
+	width: 150px;
+	height: 150px;
+	object-fit: cover;
+	border-radius: 50%;
+	margin-bottom: 10px;
+}
+
+.card p {
+	font-size: 1.2rem;
+	text-align: center;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .card {
+    width: 200px;
+    height: 250px;
+    margin: 20px;
+    perspective: 800px;
+  }
+  
+  .card a {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease-out;
+    transform-style: preserve-3d;
+    transform-origin: center;
+  }
+  
+  .card a:hover {
+    transform: rotateY(15deg) rotateX(-15deg);
+  }
+  
+  .card img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    backface-visibility: hidden;
+  }
+  
+  .card p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+    font-weight: bold;
+    text-align: center;
+    transform: translateZ(50px);
+  }
+  header {
+    background-color: #F54952;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  header h1 {
+    color: white;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  header nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  header nav a {
+    color: white;
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 18px;
+  }

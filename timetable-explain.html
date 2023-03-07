@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="timetable-explain.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <a href="index.html" class="button">Home</a>
+          <a href="documents.html" class="button">Documents</a>
+          <a href="#" class="button">Accounting</a>
+        </nav>
+        <form>
+          <input type="text" placeholder="Search">
+          <button class="button">Search</button>
+        </form>
+        
+      </header>
+      <div class="container">
+		<header>
+			<h1>¡Welcome!</h1>
+			<p>Explore this site and find out everything you need to know.</p>
+		</header>
+        <button class="back" onclick="goBack()">Go Back</button>
+        <script>function goBack() {
+          window.history.back();
+        }
+        </script>
+      <style>
+      .back {
+      background-color: #F54952; /* Green */
+      border: none;
+      color: black;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 4px 2px;
+      cursor: pointer;
+      }
+      
+      </style> 
+		<main>
+			<div class="video-container">
+				<iframe width="560" height="315" src="https://www.youtube.com/embed/7gImB-2LGkU" title="YouTube video player" frameborder="0"" allowfullscreen></iframe>
+			</div>
+			<div class="description">
+				<h2>¿What is this site?</h2>
+				<p>On our site you will find information about some documents and how to use them. From guides to useful tips.</p>
+				<a href="#" class="button">Explore</a>
+			</div>
+		</main>
+	</div>
+</body>
+</html>

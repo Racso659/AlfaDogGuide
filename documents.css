@@ -1,0 +1,48 @@
+
+        
+        .button {
+          padding: 10px 20px;
+          background-color: #404155;
+          color: white;
+          border-radius: 5px;
+          text-decoration: none;
+        }
+      
+        .button:hover {
+          background-color: #292c61;
+          cursor: pointer;
+        }
+     
+        .container {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          height: 100vh;
+        }
+        .box {
+          width: 300px;
+          height: 300px;
+          text-align: center;
+          line-height: 300px;
+          font-size: 30px;
+          color: #fff;
+          margin: 20px;
+          transition: all 0.3s ease;
+          cursor: pointer;
+        }
+        .box:hover {
+          transform: scale(1.1);
+        }
+        .box1 {
+          background-color: #404155;
+          border-radius: 5px;
+        }
+        .box2 {
+          background-color: #404155;
+          border-radius: 5px;
+        }
+        .box3 {
+          background-color: #404155;
+          border-radius: 5px;
+        }
+     

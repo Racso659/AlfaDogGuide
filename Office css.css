@@ -1,0 +1,91 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+  }
+  
+  nav a {
+    margin-right: 10px;
+  }
+  
+  form {
+    display: flex;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+  }
+  
+  button {
+    padding: 5px 10px;
+  }
+  
+  section ul {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  section li {
+    width: 33.33%;
+    padding: 10px;
+  }
+  
+  section img {
+    width: 100%;
+  }
+  
+  section h3 {
+    margin-top: 10px;
+  }
+  body {
+  background-image: url(imagenes/white\ background\ paws.png);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+  }
+
+  header {
+    background-color: #404155;
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+
+  h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: normal;
+  }
+
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 80px);
+  }
+
+  .box {
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+  }
+
+  .box:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+
+  .box h2 {
+    margin: 0;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+  }
