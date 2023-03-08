@@ -2,14 +2,14 @@
         
         .button {
           padding: 10px 20px;
-          background-color: #F54952;
+          background-color: #404155;
           color: white;
           border-radius: 5px;
           text-decoration: none;
         }
       
         .button:hover {
-          background-color: #F54952;
+          background-color: #292c61;
           cursor: pointer;
         }
      
@@ -34,15 +34,15 @@
           transform: scale(1.1);
         }
         .box1 {
-          background-color: #F54952;
+          background-color: #404155;
           border-radius: 5px;
         }
         .box2 {
-          background-color: #F54952;
+          background-color: #404155;
           border-radius: 5px;
         }
         .box3 {
-          background-color: #F54952;
+          background-color: #404155;
           border-radius: 5px;
         }
      

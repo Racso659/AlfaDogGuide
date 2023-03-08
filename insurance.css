@@ -88,7 +88,7 @@ body {
     right: -50%;
     width: 200%;
     height: 100%;
-    background-color: #F54952;
+    background-color: #404155;
     transform: skewX(-15deg);
     z-index: -1;
     animation: slide 2s ease-in-out infinite;
@@ -121,7 +121,7 @@ body {
   }
   
   header {
-    background-color: #F54952;
+    background-color: #404155;
     padding: 20px;
     display: flex;
     justify-content: space-between;

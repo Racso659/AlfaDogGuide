@@ -3,10 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
+    background-image: url(imagenes/white\ background\ paws.png);
   }
   
   header {
-    background-color: #F54952;
+    background-color: #404155;
     padding: 20px;
     display: flex;
     justify-content: space-between;
@@ -59,7 +60,7 @@ body {
   
   .icon i {
     font-size: 36px;
-    color: #F54952;
+    color: #404155;
     margin-bottom: 20px;
   }
   

@@ -1,12 +1,29 @@
+
 body {
-  background-color: #f2f2f2;
+background-image: url(imagenes/white\ background\ paws.png);
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
 }
 
+body {
+  cursor: url('imagenes/pet-paw-solo.png'), default;
+}
+
+a:link {
+  color: blue; /* color del enlace no visitado */
+  text-decoration: none; /* quitar subrayado del enlace */
+  
+}
+
+h3:visited {
+  color: blue; /* color del enlace visitado */
+  text-decoration: none; /* quitar subrayado del enlace */
+}
+
+
 header {
-  background-color: #F54952;
+  background-color: #404155;
   padding: 20px;
   text-align: center;
   color: white;
@@ -16,8 +33,13 @@ h1 {
   margin: 0;
   font-size: 40px;
   font-weight: normal;
+  text-emphasis-color: #F54952;
 }
 
+h3 {
+  color: #F54952;
+  text-decoration: none;
+}
 .container {
   display: flex;
   flex-wrap: wrap;
@@ -38,6 +60,7 @@ h1 {
   font-size: 24px;
   font-weight: normal;
   text-align: center;
+  color: #F54952;
 }
 
 .icon {
@@ -99,7 +122,8 @@ h1 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 50px;
+  margin-top: 100px;
+
 }
 
 .course {
@@ -141,4 +165,9 @@ h1 {
   text-align: center;
   cursor: pointer;
   border-radius: 5px;
+}
+.icon i {
+  font-size: 36px;
+  color: #F54952;
+  margin-bottom: 20px;
 }
