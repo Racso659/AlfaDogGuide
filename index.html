@@ -8,236 +8,53 @@
   <link rel="stylesheet" href="css.css">
 
   <body>
-    <style>
-      body {
-  cursor: url(images/instagram-logo.png), auto;
-  
-}
-
-    </style>
     <header>
-      <div class="square">
-        <a href="https://www.facebook.com/TrainingALFAdog/">
-          <img src="images/facebook.webp" alt="Imagen 1">
-        </a>
-        <a href="https://www.instagram.com/training_alfadog/">
-          <img src="images/instagram-logo.png" alt="Imagen 2">
-        </a>
-        <a href="https://www.youtube.com/@alfadog7575">
-          <img src="images/tiktok-logo.webp" alt="Imagen 3">
-        </a>
-        <a href="https://www.tiktok.com/@training_alfadog">
-          <img src="images/Youtube-logo.png" alt="Imagen 4">
-        </a>
-      </div>
-      
-<div id="menu-container">
-  <button id="menu-button">
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-  <div id="menu-items">
-    <h3>Customer records</h3>
-    <a href="documents.html">Documents</a>
-    <a href="#item2">Item 2</a>
-    <a href="#item3">Item 3</a>
-  </div>
-</div>
-<div id="content">
-  <!-- Aquí va el contenido de la página -->
-</div>
-<div id="menu-overlay"></div>
-<style class="social-webs-info">
-  .square {
-  position: absolute;
-  top: 15px;
-  right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 400px;
-  height: 40px;
-  background-color: #404155;
-  padding: 10px;
-}
-
-.square a {
-  display: flex;
-  margin: 5px;
-  width: 18%;
-  height: 150%;
-}
-
-.square img {
-  width: 80%;
-  height: 90%;
-
-}
-
-</style>
-<style>
-  #menu-container {
-  position: fixed;
-  top: 20px;
-  left: 20px;
-  z-index: 999;
-}
-
-#menu-button {
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
-  padding: 10px;
-}
-
-#menu-button span {
-  display: block;
-  width: 25px;
-  height: 3px;
-  margin: 5px;
-  background-color: black;
-  transition: transform 0.3s ease;
-}
-
-#menu-button.open span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-
-#menu-button.open span:nth-child(2) {
-  transform: translateX(-50px);
-  opacity: 0;
-}
-
-#menu-button.open span:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
-#menu-items h3{ 
-  color: black;
-  text-decoration: underline;
-}
-
-#menu-items {
-  position: absolute;
-  top: 50px;
-  left: -300px;
-  width: 200px;
-  padding: 10px;
-  background-color: white;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
-  transition: left 0.3s ease;
-}
-
-#menu-items a {
-  display: block;
-  padding: 5px;
-  margin-bottom: 5px;
-  text-decoration: none;
-  color: black;
-}
-
-#menu-items a:hover {
-  background-color: #eee;
-}
-
-#menu-button.open ~ #menu-items {
-  left: 0;
-}
-
-#content {
-  margin-left: 220px;
-}
-
-#menu-overlay {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
-  z-index: 998;
-  display: none;
-}
-
-#menu-button.open ~ #menu-overlay {
-  display: block;
-}
-
-#menu-hidden {
-  position: fixed;
-  top: 0;
-  left: -300px;
-  width: 400px; /* Cambiar el valor del ancho */
-  height: 600px; /* Cambiar el valor de la altura */
-  background-color: white;
-  z-index: 997;
-  transition: left 0.3s ease;
-}
-
-#menu-button.open ~ #menu-hidden {
-  left: 0;
-}
-
-
-</style>    
-<script>
-  var button = document.getElementById("menu-button");
-
-button.addEventListener("click", function() {
-  button.classList.toggle("open");
-});
-
-</script>  
       <h1>ALFADOG EMPLOYEES APP</h1>
     </header>
+    <div class="courses-grid">
+      <a href="Alfadog-info.html">
+        <div class="course">
+          <img src="Mesa de trabajo 2-100.jpg" alt="Trainers">
+          <h3>Alfadog info</h3>
+          <p>INFO ABOUT ALFADOG</p>
+        </div>
+      </a> 
 
-
-
+        <a href="insurance.html">
+          <div class="course">
+            <img src="Mesa de trabajo 2-100.jpg" alt="Trainers">
+            <h3>insurance procedures</h3>
+            <p>HERE YOU CAN KNOW HOW TO USE THE INSURANCE</p>
+          </div>
+        </a> 
   <div class="courses-grid">
-    <a href="insurance.html" >
+    
+    <a href="https://app.clickup.com/25743208/v/c/7-25743208-5">
       <div class="course">
         <img src="Mesa de trabajo 2-100.jpg" alt="Trainers">
-          <i class="fa fa-medkit"></i>
-        <h3> insurance procedures</h3>
-        <p>HERE YOU CAN KNOW HOW TO USE THE INSURANCE</p>
+        <h3>CLICKUP</h3>
+        <p>HERE YOU CAN SEE YOUR DAILY TASK</p>
       </div>
-    </a> 
-
+    </a>
     <a href="Office.html">
     <div class="course">
       <img src="Mesa de trabajo 2-100.jpg" alt="Office" >
       <h3>Logistic</h3>
-      <p>A space for the logistic team of AlfaDog</p>
+      <p>Breve descripción del curso 1</p>
     </div>
   </a>
-
-  <a href="https://docs.google.com/spreadsheets/d/1_5OrgTLMO62KYmRzlDf9Qybh58051TRCVvn0K93BOx0/edit?usp=sharing">
-    <div class="course">
-      <img src="Mesa de trabajo 2-100.jpg" alt="Trainers">
-      <h3>TimeTable</h3>
-      <p>Tables of schedule, order and times of AlfaDog </p>
-    </div>
-  </a>
-  
-  <div class="hidden" id="hidden">
-<style>
-#hidden {
-  display: none;
-}
-
-</style>
-  <a href="trainers.html" >
+  <a href="trainers.html">
     <div class="course">
       <img src="Mesa de trabajo 2-100.jpg" alt="Trainers">
       <h3>Trainers</h3>
-      <p>Guides, information an help for the Trainers of AlfaDog</p>
+      <p>Breve descripción del curso 2</p>
     </div>
   </a>
     <a href="documents.html">
       <div class="course">
         <img src="Mesa de trabajo 2-100.jpg" alt="Documents">
         <h3>Documents</h3>
-        <p>A quick access to AlfaDog's most used documents </p>
+        <p>Breve descripción del curso 3</p>
       </div>
     </a>
     <div class="container">
@@ -245,19 +62,19 @@ button.addEventListener("click", function() {
         <div class="icon">
           <i class="fas fa-user-clock"></i>
         </div>
-        <h2>Assistance</h2>
+        <h2>Control de Asistencia</h2>
       </a>
       <a href="#" class="course">
         <div class="icon">
           <i class="fas fa-file-invoice-dollar"></i>
         </div>
-        <h2>Conctracts</h2>
+        <h2>Nóminas</h2>
       </a>
       <a href="#" class="course">
         <div class="icon">
           <i class="fas fa-tasks"></i>
         </div>
-        <h2>Task</h2>
+        <h2>Tareas</h2>
       </a>
       <a href="#" class="course">
         <div class="icon">
@@ -265,7 +82,6 @@ button.addEventListener("click", function() {
         </div>
         <h2>Adelaide map</h2>
       </a>
-    </div>
     </div>
   </div>
 </div>

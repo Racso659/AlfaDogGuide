@@ -4,7 +4,6 @@ body {
     padding: 0;
     padding-bottom: 50px;
     margin-bottom: 50px;
-    background-image: url(imagenes/white\ background\ paws.png);
   }
   
   header {
@@ -34,7 +33,7 @@ body {
   }
   .box {
     text-align: center;
-    background-color: #404155;
+    background-color: #F54952;
     border-radius: 5px;
     text-decoration: dashed;
     text-decoration-color: white;
@@ -100,7 +99,7 @@ body {
     .file-download {
         display: inline-block;
         padding: 10px 20px;
-        background-color:#404155;
+        background-color:#F54952;
         color: #FFFFFF;
         text-decoration: none;
         border-radius: 5px;
